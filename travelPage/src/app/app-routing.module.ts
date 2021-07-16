@@ -1,8 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { BlogPageComponent } from './blog-page/blog-page.component';
+import { CartComponent } from './cart/cart.component';
 import { HomePageComponent } from './home-page/home-page.component';
-import { TravelsPageComponent } from './travels-page/travels-page.component';
+import { TravelComponent } from './travel/travel.component';
 
 const routes: Routes = [
   {
@@ -12,7 +13,10 @@ const routes: Routes = [
     path: "blog-page", component: BlogPageComponent
   },
   {
-    path: "travels-page", component: TravelsPageComponent
+    path: "travel", component: TravelComponent
+  },
+  {
+    path: "cart", component: CartComponent
   }
 ];
 

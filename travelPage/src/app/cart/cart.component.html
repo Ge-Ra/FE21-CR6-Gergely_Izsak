@@ -1,0 +1,15 @@
+<table class="table">
+    <thead>
+        <tr>
+            <th class="text-white fw-light" scope="col">Product</th>
+            <th class="text-white fw-light" scope="col">Price</th>
+        </tr>
+    </thead>
+    <tbody class="cart-item" *ngFor="let val of items">
+        <tr>
+            <td class="fw-light text-white">{{ val.destination }}</td>
+            <td class="fw-light text-white">{{ val.price }}</td>
+        </tr>
+    </tbody>
+</table>
+
