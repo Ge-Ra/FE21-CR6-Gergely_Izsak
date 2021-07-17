@@ -6,7 +6,7 @@ export const products = [
         startDate: "17.1.2021",
         duration: "3 days",
         price: 74,
-        image: "../assets/images/datingscout-VbWNQZeS2zs-unsplash.jpg"
+        image: "/assets/images/datingscout-VbWNQZeS2zs-unsplash.jpg"
     },
     {
         destination: "Lofoten, Norway",
@@ -14,7 +14,7 @@ export const products = [
         startDate: "15.12.2021",
         duration: "5 days",
         price: 97,
-        image: "../assets/images/johny-goerend-MYXMx2zr1g8-unsplash.jpg"
+        image: "/assets/images/johny-goerend-MYXMx2zr1g8-unsplash.jpg"
     },
     {
         destination: "Eilean Donan Castle, Scotland",
@@ -22,7 +22,7 @@ export const products = [
         startDate: "20.2.2021",
         duration: "7 days",
         price: 78,
-        image: "../assets/images/piotr-guzik-gcMStl_ALMA-unsplash.jpg"
+        image: "/assets/images/piotr-guzik-gcMStl_ALMA-unsplash.jpg"
 
     },
     {
@@ -31,7 +31,7 @@ export const products = [
         startDate: "13.6.2021",
         duration: "1 days",
         price: 58,
-        image: "../assets/images/o-car-johann-campos-Pj80JY5qdsc-unsplash.jpg"
+        image: "/assets/images/o-car-johann-campos-Pj80JY5qdsc-unsplash.jpg"
     },
     {
         destination: "Lapland, Finland",
@@ -39,7 +39,7 @@ export const products = [
         startDate: "10.10.2021",
         duration: "8 days",
         price: 32,
-        image: "../assets/images/datingscout-MYJVaCl6M4M-unsplash.jpg"
+        image: "/assets/images/datingscout-MYJVaCl6M4M-unsplash.jpg"
     },
     {
         destination: "Cape Reinga, New Zealand",
@@ -47,7 +47,7 @@ export const products = [
         startDate: "19.9.2021",
         duration: "4 days",
         price: 44,
-        image: "../assets/images/steven-biak-ling-QzKs6wkoMDE-unsplash.jpg"
+        image: "/assets/images/steven-biak-ling-QzKs6wkoMDE-unsplash.jpg"
     },
     {
         destination: "Saxon, Switzerland",
@@ -55,7 +55,7 @@ export const products = [
         startDate: "28.11.2021",
         duration: "3 days",
         price: 78,
-        image: "../assets/images/sangga-rima-roman-selia-BCEcABONw9Y-unsplash.jpg"
+        image: "/assets/images/sangga-rima-roman-selia-BCEcABONw9Y-unsplash.jpg"
     },
     {
         destination: "Ninh Binh, Vietnam",
@@ -63,6 +63,6 @@ export const products = [
         startDate: "31.12.2021",
         duration: "2 days",
         price: 35,
-        image: "../assets/images/taylor-simpson-pCfZ79jhVZo-unsplash.jpg"
+        image: "/assets/images/taylor-simpson-pCfZ79jhVZo-unsplash.jpg"
     },
 ];

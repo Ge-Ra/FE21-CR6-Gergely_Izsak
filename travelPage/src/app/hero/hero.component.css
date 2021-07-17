@@ -1,8 +1,8 @@
 .d-flex {
-    width: calc(100% - 40%);
-    flex-direction: column;
+  width: calc(100% - 40%);
+  flex-direction: column;
 }
 
 .container {
-    margin-top: 6em;
+  margin-top: 6em;
 }

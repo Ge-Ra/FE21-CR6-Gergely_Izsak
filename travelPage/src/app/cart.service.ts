@@ -7,7 +7,7 @@ export class CartService {
   items: any = [];
   constructor() { }
 
-  addToCart(products: {description: string, destination: string, price: number, image: string }) {
+  addToCart(products: { description: string, destination: string, price: number, image: string }) {
     this.items.push(products);
   }
 

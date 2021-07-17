@@ -7,9 +7,25 @@
   align-items: center;
 }
 
+table div {
+  border-bottom: 2px solid aliceblue;
+}
+
 form {
-  max-width: 1em;
-  margin: auto;
-  text-align: center;
-  padding: 3em;
+  max-width: 15rem;
+  text-align: start;
+  padding: 3rem;
+}
+
+form div {
+  margin: 1rem;
+}
+
+#sum {
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: 2rem;
 }

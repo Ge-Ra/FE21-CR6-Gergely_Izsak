@@ -7,10 +7,9 @@ import { products } from '../products';
   styleUrls: ['./home-page.component.css']
 })
 export class HomePageComponent implements OnInit {
-products = products;
+  products = products;
   constructor() { }
 
   ngOnInit(): void {
   }
-
 }

@@ -1,27 +1,43 @@
-<div class="container">
+<div class="container-fluid">
+    <h2 class="text-center m-5">CART</h2>
     <table class="table">
-    <thead>
-        <tr>
-            <th class="text-white fw-light" scope="col">Product</th>
-            <th class="text-white fw-light" scope="col">Price</th>
-        </tr>
-    </thead>
-    <tbody class="cart-item" *ngFor="let val of items">
-        <tr>
-            <td class="fw-light text-white">{{ val.destination }}</td>
-            <td class="fw-light text-white">{{ val.price }} €</td>
-        </tr>
-    </tbody>
-</table>
-<form [formGroup]="checkoutForm" (ngSubmit)="onSubmit(checkoutForm.value)" v>
-    <div>
-        <label for="name">Name:</label>
-        <input id="name" type="text" formControlName="name">
-    </div>
-    <div>
-        <label for="address">Address:</label>
-        <input id="address" type="text" formControlName="address">
-    </div>
-    <button class="button" type="submit">Purchase</button>
-</form>
+        <thead>
+            <tr>
+                <th class="text-white fw-light" scope="col">Product</th>
+                <th class="text-white fw-light" scope="col">Price</th>
+            </tr>
+        </thead>
+        <tbody class="cart-item" *ngFor="let val of items">
+            <tr>
+                <td class="fw-light text-white">{{ val.destination }}</td>
+                <td class="fw-light text-white">{{ val.price }} €</td>
+            </tr>
+        </tbody>
+        <div id="sum">
+            <p>Total: {{sum}} €</p>
+            <p>With {{showDisc}}% discount your total is: {{discount}}€</p>
+        </div>
+    </table>
+    <div class="container"></div>
+    <form [formGroup]="checkoutForm" (ngSubmit)="onSubmit(checkoutForm.value)" v>
+        <div>
+            <label for="fName">First Name:</label>
+            <input id="fName" type="text" formControlName="fName">
+        </div>
+        <div>
+            <label for="lName">Last Name:</label>
+            <input id="lName" type="text" formControlName="lName">
+        </div>
+        <div>
+            <label for="address">Address:</label>
+            <input id="address" type="text" formControlName="address">
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input id="email" type="text" formControlName="email">
+        </div>
+        <div>
+            <button class="btn btn-outline-light" type="submit">Purchase</button>
+        </div>
+    </form>
 </div>

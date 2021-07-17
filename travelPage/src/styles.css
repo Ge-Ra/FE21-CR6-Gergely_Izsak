@@ -5,8 +5,9 @@ body {
   background-size: 100% 100%;
   font-family: 'Old Standard TT', serif;
   color: aliceblue;
+  scroll-behavior: smooth;
 }
 
 p {
-  font-family: 'Old Standard TT', serif;
+  font-family: 'Questrial', sans-serif;
 }
